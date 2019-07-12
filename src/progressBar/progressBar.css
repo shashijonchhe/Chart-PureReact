@@ -1,0 +1,13 @@
+.progress-container .progress {
+  height: 5px;
+  width: 80%;
+}
+.progress-container {
+  width: 100%;
+}
+.progress-values {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4px;
+}

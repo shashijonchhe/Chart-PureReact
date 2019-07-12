@@ -1,0 +1,87 @@
+.accordian {
+  border: 1px solid #b9b4b4;
+  margin: 5px;
+  border-radius: 4px;
+}
+.accordian:last-child {
+  border-bottom: 1px solid #dedede;
+}
+.accordionHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+  background-color: #dedede;
+}
+.select-box {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  background-color: #5bda42;
+  margin-right: 5px;
+}
+.notachieved-text .select-box {
+  background-color: #e6a721;
+}
+.achieved-time {
+  width: 70px;
+}
+.accordionHeader:hover {
+  cursor: pointer;
+}
+
+.accordianPanel p {
+  margin: 0;
+}
+
+.accordianPanel {
+  border-top: 1px solid #b9b4b4;
+  padding: 8px 0;
+}
+
+.accordionInfo {
+  display: flex;
+}
+
+.accordianInfo div div .progress {
+  height: 5px;
+}
+
+.accordionInfo div {
+  width: 100%;
+}
+
+.arrowIcons {
+  position: relative;
+  width: 40px;
+}
+
+.arrowUp {
+  position: absolute;
+  top: -6px;
+}
+
+.arrowUp:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #7f8184 transparent;
+}
+
+.arrowDown {
+  position: absolute;
+  top: -4px;
+}
+
+.arrowDown:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #7f8184 transparent transparent transparent;
+}
